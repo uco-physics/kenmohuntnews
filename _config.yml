@@ -1,0 +1,24 @@
+title: KenmoHuntNews
+description: Daily AI news digest — new models, free offers, demos, and tools
+url: "https://uco-physics.github.io"
+baseurl: "/kenmohuntnews"
+lang: ja
+
+author:
+  name: KenmoHuntNews Bot
+
+theme: minima
+
+minima:
+  skin: dark
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+permalink: /:year/:month/:day/:title/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
